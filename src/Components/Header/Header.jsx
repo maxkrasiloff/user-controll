@@ -5,7 +5,7 @@ let Header = () => {
     return (
         <header>
             <div className={css.headerContent}>
-                <a href="/" className={css.logo}>userControll</a>
+                <NavLink to="/" className={css.logo}>userControll</NavLink>
                 <div className={css.flexWrapper}></div>
                 <ul className={css.headerNavigation}>
                     <li><NavLink to="/users">Users</NavLink></li>
