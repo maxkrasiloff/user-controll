@@ -17,7 +17,7 @@ window.store = store;
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           <Header/>
           <div className="main">
@@ -38,7 +38,7 @@ function App() {
           </div>
           <Footer/>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </Provider>
   );
 }
