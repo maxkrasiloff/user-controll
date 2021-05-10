@@ -2,6 +2,9 @@ import { useState } from 'react'
 import css from '../Profile.module.css'
 let ProfileInfo = ({profile,...props}) => {
     const [isInfoVisible, setInfoVisible] = useState(false);
+    function toggleList() {
+        setInfoVisible(!isInfoVisible);
+    }
     return (
         <div className={css.profile}>
             <div className={css.name}>{profile.name}</div>
@@ -32,7 +35,7 @@ let ProfileInfo = ({profile,...props}) => {
                 </div>
                 
             </ProfileInfoTable>
-            <div className={css.toggleInfoButton} onClick={setInfoVisible(!isInfoVisible)}>{isInfoVisible ? 'свернуть' : 'развернуть'}</div>
+            <div className={css.toggleInfoButton} onClick={toggleList}>{isInfoVisible ? 'свернуть' : 'развернуть'}</div>
         </div>
     )
 }
