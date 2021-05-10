@@ -7,7 +7,7 @@ import Preloader from "../Preloader/Preloader";
 
 let ProfileContainer  = (props) => {
     const [currentUser, setCurrentUser] = useState(null);
-    if(currentUser != props.match.params.id) {
+    if(currentUser !== props.match.params.id) {
         let userId = props.match.params.id;
         setCurrentUser(userId)
         props.getProfile(userId)

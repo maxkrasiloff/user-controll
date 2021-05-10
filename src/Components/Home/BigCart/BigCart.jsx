@@ -7,8 +7,8 @@ let BigCart = (props) => {
                 {props.content.map(el=>(<p>{el}</p>))}
             </div>
             <div className={css.blockRight}>
-                <img src={props.icon}/>
-                <a href={props.url} className={css.blockButton} target="_blank" rel="nofollow">{props.button_text}</a>
+                <img src={props.icon} alt=""/>
+                <a href={props.url} className={css.blockButton} target="_blank" rel="noreferrer">{props.button_text}</a>
             </div>
         </div>
     )

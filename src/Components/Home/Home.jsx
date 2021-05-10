@@ -11,7 +11,7 @@ const Home = () => {
             <h1>Добро пожаловать!</h1>
             <p>
                 Данный сайт - демонстрациия моих навыков в работе с React и Redux. 
-                В качестве backend API было использовано API <a href="https://jsonplaceholder.typicode.com/" target="_blank">typicode</a>.
+                В качестве backend API было использовано API <a href="https://jsonplaceholder.typicode.com/" rel="noreferrer" target="_blank" >typicode</a>.
             </p>
             <p>
                 Исходный код данного проекта можно посмотреть на github.

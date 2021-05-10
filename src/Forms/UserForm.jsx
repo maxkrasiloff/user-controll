@@ -75,7 +75,7 @@ let FormField = (props) => {
                 <label htmlFor={props.id}>{props.label}</label>
                 <Field id={props.id} type={props.type} name={props.name} placeholder={props.placeholder}/>
             </div>
-            <ErrorMessage name={props.name} name="name" component="div" />
+            <ErrorMessage name={props.name} component="div" />
         </div>
     )
 
