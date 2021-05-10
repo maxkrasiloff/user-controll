@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import css from './Footer.module.css'
 const Footer = () => {
     return (
@@ -15,10 +16,10 @@ const Footer = () => {
                 </div>
                 <div className={css.block}>
                     <div className={css.linkBlock}>
-                        <a href="/users">Users</a>
-                        <a href="/user/1">Posts</a>
-                        <a href="/user/1/edit">Edit User</a>
-                        <a href="/create">Create New User</a>
+                        <NavLink to="/users">Users</NavLink>
+                        <NavLink to="/user/1">Posts</NavLink>
+                        <NavLink to="/user/1/edit">Edit User</NavLink>
+                        <NavLink to="/create">Create New User</NavLink>
                     </div>
                 </div>
                 <div className={css.block}>

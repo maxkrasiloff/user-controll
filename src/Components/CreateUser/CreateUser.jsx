@@ -9,7 +9,7 @@ let CreateUser = (props) => {
                 <UserForm submitForm={props.submitForm} buttonText="Create"/>
             </div>
 
-            {props.userCreated && (props.userCreated.success ? (<div className={css.succesMessage}>User Created</div>) : (<div className={css.errorMessage}>Some Wrong...</div>) )}
+            {props.userCreated && (props.userCreated.success ? (<div className={css.successMessage}>User Created</div>) : (<div className={css.errorMessage}>Some Wrong...</div>) )}
         </>
         
     )

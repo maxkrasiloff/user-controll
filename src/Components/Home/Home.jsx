@@ -1,7 +1,6 @@
 import React from 'react';
 import css from './Home.module.css'
 import reactLogo from '../../Assets/Home/logo.svg'
-import moneyIcon from '../../Assets/Home/money.svg'
 import CartsBlock from './CartsBlock/CartsBlock';
 import homePageContent from '../../StaticData/homePageContent'
 import LibraryListBlock from './LibraryListBlock/LibraryListBlock';
