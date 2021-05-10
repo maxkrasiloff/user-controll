@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/user-controll/static/css/main.ff9aef5b.chunk.css",
+    "main.js": "/user-controll/static/js/main.7bdf5552.chunk.js",
+    "main.js.map": "/user-controll/static/js/main.7bdf5552.chunk.js.map",
+    "runtime-main.js": "/user-controll/static/js/runtime-main.b7407fa0.js",
+    "runtime-main.js.map": "/user-controll/static/js/runtime-main.b7407fa0.js.map",
+    "static/js/2.b6d40e51.chunk.js": "/user-controll/static/js/2.b6d40e51.chunk.js",
+    "static/js/2.b6d40e51.chunk.js.map": "/user-controll/static/js/2.b6d40e51.chunk.js.map",
+    "static/js/3.f640d86e.chunk.js": "/user-controll/static/js/3.f640d86e.chunk.js",
+    "static/js/3.f640d86e.chunk.js.map": "/user-controll/static/js/3.f640d86e.chunk.js.map",
+    "index.html": "/user-controll/index.html",
+    "static/css/main.ff9aef5b.chunk.css.map": "/user-controll/static/css/main.ff9aef5b.chunk.css.map",
+    "static/js/2.b6d40e51.chunk.js.LICENSE.txt": "/user-controll/static/js/2.b6d40e51.chunk.js.LICENSE.txt",
+    "static/media/edit.33fe3ee5.svg": "/user-controll/static/media/edit.33fe3ee5.svg",
+    "static/media/eye.7e8c23c1.svg": "/user-controll/static/media/eye.7e8c23c1.svg",
+    "static/media/formik.9112cd9b.png": "/user-controll/static/media/formik.9112cd9b.png",
+    "static/media/logo.05041eab.svg": "/user-controll/static/media/logo.05041eab.svg",
+    "static/media/money.a44b0da8.svg": "/user-controll/static/media/money.a44b0da8.svg",
+    "static/media/redux-thunk.5de70b7b.png": "/user-controll/static/media/redux-thunk.5de70b7b.png",
+    "static/media/rest-api.0d73412e.svg": "/user-controll/static/media/rest-api.0d73412e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7407fa0.js",
+    "static/js/2.b6d40e51.chunk.js",
+    "static/css/main.ff9aef5b.chunk.css",
+    "static/js/main.7bdf5552.chunk.js"
+  ]
+}
