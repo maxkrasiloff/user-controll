@@ -8,7 +8,7 @@ let BigCart = (props) => {
             </div>
             <div className={css.blockRight}>
                 <img src={props.icon}/>
-                <a href="#" className={css.blockButton}>{props.button_text}</a>
+                <a href={props.url} className={css.blockButton} target="_blank" rel="nofollow">{props.button_text}</a>
             </div>
         </div>
     )

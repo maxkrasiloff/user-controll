@@ -25,7 +25,8 @@ const Home = () => {
                 ]                
                 }
                 icon={reactLogo}
-                button_text="Подробнее"
+                button_text="Подробнее о React"
+                url="https://ru.reactjs.org/"
             />
             <h2 className={css.bigH2}>Используемые технологии</h2>
             <p>Из основных, в данном продукте были использованы следующие дополнительные библиотеки:</p>
