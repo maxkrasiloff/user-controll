@@ -1,4 +1,5 @@
 import { UsersAPI } from "../api/api";
+import { formatForm } from "../utils/user-utils";
 
 const SET_PROFILE = 'SET_USERS';
 const SET_POSTS = 'SET_POSTS';
@@ -71,24 +72,6 @@ export const updateProfile = (formData, userId) => {
     }
 }
 
-const formatForm = (formData) => {
-    let formatedData =  {
-        ...formData,
-        address: {
-            zipcode: formData.zipcode,
-            city: formData.city,
-            street: formData.street,
-            suite: formData.suite,
-        },
-        company: {
-            name: formData.company_name,
-            catchPhrase: formData.catchPhrase,
-            bs: formData.bs,
-        }
-    }
-    return formatedData;
-
-}
 export const setStatusUSerUpdated = (success, id = null) => ({ type: SET_STATUS_UPDATE_USER, success: success, id: id })
 export const setStatusUSerCreated = (success, id = null) => ({ type: SET_STATUS_CREATE_USER, success: success, id: id })
 export const createUser = (profile) => ({ type: CREATE_USER, profile: profile })

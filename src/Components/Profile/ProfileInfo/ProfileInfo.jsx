@@ -40,7 +40,6 @@ let ProfileInfo = ({profile,...props}) => {
     )
 }
 
-
 const ProfileInfoTable = (props) => {
     return (
         <div className={css.table + ' ' + props.className}>

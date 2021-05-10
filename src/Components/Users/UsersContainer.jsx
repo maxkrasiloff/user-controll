@@ -11,18 +11,18 @@ let mapStateToProps = (state) => {
     }
 }
 
-
 const UsersContainer = (props) => {
     const [usersLoaded, changeUsersLoaded] = useState(false)
     if(!usersLoaded) {
         props.getUsers();
         changeUsersLoaded(true);
     }
-
-    return (props.users.users ? <Users users={props.users.users}/> : <Preloader/>)
-        
+    return (
+        props.users.users 
+            ? <Users users={props.users.users}/> 
+            : <Preloader/>
+        )       
 }
-
 
 export default compose(
     connect(

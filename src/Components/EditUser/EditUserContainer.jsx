@@ -1,12 +1,11 @@
-import { useState } from "react"
+import React, { useState } from "react"
 import { connect } from "react-redux"
 import { compose } from "redux"
 import { getProfileForEdit,updateProfile } from "../../redux/profile-reducer"
 import Preloader from "../Preloader/Preloader"
 import EditUser from "./EditUser"
 
-let editUserContainer = (props) => {
-    
+let EditUserContainer = (props) => {    
     const [dataLoaded, setDataLoaded] = useState(false);
     const disabled = false;
     if (!dataLoaded) {
@@ -30,7 +29,6 @@ let mapStateToProps = (state) => {
     }
 }
 
-
 export default compose(
     connect(
         mapStateToProps, 
@@ -39,4 +37,4 @@ export default compose(
             updateProfile
         }
     )
-)(editUserContainer)
+)(EditUserContainer)

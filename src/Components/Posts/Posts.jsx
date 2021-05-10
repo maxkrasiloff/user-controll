@@ -17,6 +17,4 @@ let Posts = (props) => {
     )
 }
 
-
-
 export default Posts;
