@@ -4,3 +4,9 @@
 Пример работы можно посмотреть [здесь](https://maxkrasiloff.github.io/user-controll/)
 ## Исходный код
 Исходный код проекта лежит в ветке master [здесь](https://github.com/maxkrasiloff/user-controll/tree/master)
+
+## Используемые дополнительные библиотеки:
+* axios - для отправки запросов
+* redux-thunk - асинхронно изменять store
+* Formik - для упрощения работы с формами
+* и прочие
