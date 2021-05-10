@@ -1,0 +1,163 @@
+.block  {
+    background-color: #993366;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 0.25em;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items:stretch
+}
+
+.block h2 {
+    font-size: 2em;
+    line-height: 1;
+}
+
+.blockLeft {
+    width: calc( (100% / 4) *3 );
+}
+
+.blockRight {
+    width: calc( (100% / 4) *1 );
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blockRight img {
+    max-width: 50%;
+    max-height: 100%;
+    flex-grow: 1;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.blockRight .blockButton {
+    color: #fff;
+    border: 2px solid currentColor;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    background-color: transparent;
+}
+
+.blockRight .blockButton:hover {
+    color: #ccc;
+}
+.cartsBlock {
+    display: flex;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    width: calc(( 100% - 20px )/ 3);
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    transition: 0.3s;
+    margin-left: 30px;
+}
+
+.cart:first-child {
+    margin-left: 0;
+} 
+
+.cart:hover {
+    box-shadow: 0 0 0.5em #ccc;
+}
+
+.bigSymbol {
+    font-size: 10em;
+    text-align: center;
+    color: #993366;
+}
+
+.cartIcon {
+    max-width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartIcon img {
+    max-width: 50%;
+    max-height: 50%;
+    height: auto;
+    color: #993366;
+}
+
+.cartTitle {
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
+
+.cartDescription {
+    font-size: 1.1em;
+    color: #777;
+    margin-bottom: 0.5em;
+}
+
+.cartButton {
+    border: 1px solid currentColor;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+}
+
+.cartButton:hover {
+    color: #333;
+    box-shadow: 0 0 0.5em #ccc;
+}
+
+.bigH2 {
+    font-size: 2em;
+    margin-top: 2   em;
+    line-height: 1;
+}
+
+.brandsBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.brandName {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    font-size: 1.5em;
+    color: #993366;
+}
+
+@media all and (max-width: 400px) {
+    .block {
+        flex-direction: column;
+    }
+    .blockRight {
+        width: auto;
+    }
+    .blockLeft {
+        width: auto;
+    }
+
+    .cartsBlock {
+        flex-direction: column;
+    }
+
+    .cart {
+        margin-left: 0;
+        width: auto;
+        margin-bottom: 1em;
+    }
+    .brandName {
+        width: 50%;
+    }
+}

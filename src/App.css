@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #993366;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 200;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+  flex-grow: 100;
+  width: 1280px;
+}
+
+#root .App {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  
+  min-height: 100vh;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+#root {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+input:focus {
+  outline: none
+}
+
+button {
+  border: 1px solid currentColor;
+  color: #993366;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  background-color: transparent;
+  border-radius: 0.25em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  box-shadow: 0 0 0.25em currentColor;
+}
+
+button:disabled {
+  color: #888;
+  cursor: default;
+}
+
+button:disabled:hover {
+  box-shadow: unset;
+}
+
+@media all and (max-width: 1280px) {
+  .main {
+    max-width: 1280px;
+    width: 100%;
   }
 }

@@ -1,0 +1,28 @@
+.userCart {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.name {
+    font-size: 1.2em;
+}
+
+
+.leftBlock {
+    flex-grow: 1;
+}
+
+.editButton {
+    padding: 0.5em 1em;
+    border: 1px solid currentColor;
+    border-radius: 0.25em;
+}
+
+@media all and (max-width: 400px) {
+    .leftBlock {
+        width: 50%;
+    }
+}

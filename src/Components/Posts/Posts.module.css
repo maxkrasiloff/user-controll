@@ -1,0 +1,30 @@
+.postsWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    border: 1px solid #e1e1e1;
+    margin-bottom: 2em;
+    border-radius: 0.25em;
+}
+
+.postHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    border-bottom: 1px solid #e1e1e188;
+}
+
+.title {
+    font-size: 1.3em;    
+}
+
+.postId {
+    color: #777;
+}
+
+.body {
+    font-size: 1.1em;
+    padding: 0.5em;
+}

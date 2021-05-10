@@ -1,0 +1,45 @@
+.name {
+    font-size: 3em;
+}
+
+.username {
+    color: #777
+}
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.mainTable {
+    width:  100%;
+}
+
+.mainTable > .tr >.td:first-child {
+    width: 20%;
+}
+
+.tr {
+    display: flex;
+    flex-direction: row;
+}
+
+.td {
+    width: 50%;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.toggleInfoButton {
+    border: 1px solid currentColor;
+    color: #993366;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggleInfoButton:hover {
+    box-shadow: 0 0 0.5em #993366;
+}
